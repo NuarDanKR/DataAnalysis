@@ -1,6 +1,6 @@
 #quiz for dojang.io
 
-n = int(input())
+n = int(input("입력 :"))
 
 for i in range(n):
     for j in range(n,i,-1):
@@ -8,4 +8,4 @@ for i in range(n):
     for k in range(0,2*i+1,1):
         print('*',end='')
     print()
-    
+    5
