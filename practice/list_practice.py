@@ -1,12 +1,10 @@
+a = list(range(0,15,2))
 
-#%%
-a=[2,8,0,5,7]
-print("a:",a)
-b=a.copy()
+for index,val in enumerate(a,1):
+    print(f'[{index}번]{val}')
+
+b=[i + 5 for i in range(10) if i % 2 == 1]
+#c=[6,8,10,12,14]
 print("b:",b)
 
-b.append(5)
-print("b.append:",b)
-
-c=list(range(0,20,2))
-print("c:",c)
+print("b.sum:",sum(b))
